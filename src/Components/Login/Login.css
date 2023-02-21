@@ -1,0 +1,32 @@
+.login{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    border: none;
+    background-color: #EDC126;
+    width: 100px;
+    height: 50px;
+    color: white;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    border-radius: .25rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #E5D68A;
+}
+
+@media only screen and (max-width: 600px) {
+   .button{
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
+    padding: .25rem;
+   }
+  }
